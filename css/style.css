@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+img{
+  max-width: 100%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.nomargin{
+  margin:0;
+}
+
+.nopadding{
+  padding: 0;
+}
+
+.noline{
+  line-height: normal;
+}
+
+.fullscreen {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+
+#logotipo_login{
+  padding: 20px 0;
+}
+
+#logotipo{
+  padding: 50px 0;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+   width: 100%;
+}
+
+.ft{
+  margin: 0px; line-height:1em;
+}
+
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea{
+  margin-left: 0;
+  padding-left: 3rem;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+nav #slide-out .logo img{
+  vertical-align: middle;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header, main, footer {
+    padding-left: 240px;
+}
+
+#site header, #site main, #site footer {
+  padding-left: 0;
+}
+
+
+#usuario{
+  border-bottom: 1px solid #ccc;
+  background: #ececec;
+}
+
+#usuario .info{
+  padding: 11px 0px;
+}
+
+.collection a.collection-item,
+.collection .secondary-content{
+    color: #444;
+}
+
+.collection a:hover.collection-item,
+.collection a:hover .secondary-content{
+    color: #3949ab;
+}
+
+@media only screen and (min-width : 992px) {
+  .navbar-fixed, nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    height: 0;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
